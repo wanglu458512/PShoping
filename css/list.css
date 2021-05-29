@@ -1,0 +1,120 @@
+.nav {
+    /* 多余部分隐藏：后面给了49px ,会影响sk_hd模块的文字成环绕模式，要清除那里的影响 */
+  overflow: hidden;  
+}
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 185px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 3px 14px;
+}
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 30px;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 20px;
+}
+.sk_con ul li:last-child a::after {
+    content: '\e900';
+    font-family: icomoon;
+}
+.sk_bd ul li {
+    overflow: hidden;
+    float: left;
+    margin-right: 13px;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0px;
+}
+.sk_bd ul li:hover {
+    border: 1px solid red;
+}
+.box1 img {
+    width: 100%;
+}
+.review {
+    font-size: 14px;
+    height: 35px;
+    padding: 0 10px;
+}
+.price {
+    height: 33px;
+    line-height: 33px;
+    margin-top: 10px;
+}
+.miaosha {
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+    padding-left: 10px;
+}
+.origin {
+    float: left;
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+.jindutiao {
+    height: 16px;
+    margin: 10px;
+}
+.bar {
+    float: left;
+    width: 133px;
+    height: 14px;
+    border: 1px solid red;
+    border-radius: 6px;
+    padding: 1px;
+}
+.bar_in {
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    transition: all .7s;
+}
+.bar:hover .bar_in {
+    width: 100%;
+}
+.jindutiao span {
+    float: right;
+    line-height: 14px;
+    font-size: 12px;
+    color: grey;
+}
+.buy_now {
+    height: 50px;    
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #b1191a;
+}
+.buy_now a {   
+    color: #fff;
+}
